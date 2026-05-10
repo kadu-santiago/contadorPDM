@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_margin="18dp">
+
+    <TextView
+        android:id="@+id/tv_contador"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="o contador vai aparecer aqui" />
+
+    <Button
+        android:id="@+id/btn_adc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="+1" />
+
+</LinearLayout>
